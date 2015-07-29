@@ -27,7 +27,7 @@ public class Retriever {
      */
     private static final String questionBeginLtr = "span class=\\\"text-bold\\\"><span dir=\\\"ltr\\\">";
     private static final String questionBeginRtl = "span class=\\\"text-bold\\\"><span dir=\\\"rtl\\\">";
-    private static final String questionEnd = "</sp"; //za end: sto krace, to brze
+    private static final String questionEnd = "</sp";
     private static final String answerBeginLtr = "div class=\\\"answer\\\" dir=\\\"ltr\\\">\\n      ";
     private static final String answerBeginRtl = "div class=\\\"answer\\\" dir=\\\"rtl\\\">\\n      ";
     private static final String answerEnd = "\\n    </div>";
