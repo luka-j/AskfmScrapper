@@ -1,10 +1,11 @@
 # askfm-scrapper
 Proof-of-concept. Nothing is private, especially not publicly published data.
 
-Give it a username, and it will download all questions/answers/likes/authors in a file. Convinient for Ctrl+F. Read comments for more detailed instructions.
+Give it a username, and it will download all questions/answers/likes/authors in a file. Convinient for `grep`. Read comments for more detailed instructions.
 
 
 Known issues:
+- Doesn't work with videos
 - Single-threaded. I don't own a high-end PC, and I like to do something else while scrapping random strangers' data.
 - Might fail to record a question or two. Very minor, however
 - Might fail to properly format question/answer, resulting in text artifacts
