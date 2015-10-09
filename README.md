@@ -1,5 +1,5 @@
-# askfm-scrapper
-Proof-of-concept. Nothing is private, especially not publicly published data.
+# AskfmScrapper
+Nothing is private, especially not publicly published data. Just a tool I wrote in spare time.
 
 Give it a username, and it will download all questions/answers/likes/authors in a file. Convinient for `grep`. Read comments for more detailed instructions.
 
