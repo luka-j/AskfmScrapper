@@ -19,10 +19,11 @@ public class Retriever {
      * Determines the pause between in {@link this#resolveLikes()}
      */
     static final int LIKES_PAUSE = 200;
-    /**
+    /*
      * Strings used for matching
      */
-    /**
+     
+    /*
      * Regular fields (appear in every question)
      */
     private static final String questionBeginLtr = "span class=\\\"text-bold\\\"><span dir=\\\"ltr\\\">";
@@ -33,15 +34,17 @@ public class Retriever {
     private static final String answerEnd = "\\n    </div>";
     private static final String dateBegin = "class=\\\"link-time hintable inverse\\\" data-rlt-aid=\\\"answer_time\\\" hint=\\\"";
     private static final String dateEnd = "GMT\\\">";
-    /**
+    
+    /*
      * Optional fields (may not appear in every question)
      */
     private static final String authorBegin = "<span class=\\\"author nowrap\\\">&nbsp;&nbsp;<a href=\\\"/";
     private static final String authorEnd = "\\\"";
     private static final String likesBegin = "return false\\\" href=\\\"/likes";
     private static final String likesEnd = "\\\">";
-    /**
-     * Strings for images in links, appear inside question and answer text
+    
+    /*
+     * Strings for images and links, appear inside question and answer text
      */
     private static final String imgBegin = "<a href=";
     private static final String imgSrcBegin = "src=\\\"";
