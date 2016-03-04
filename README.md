@@ -12,5 +12,7 @@ Known issues:
 - Letters in non-English alphabet won't be encoded properly in filenames on Windows
 - Might fail to work in many other ways at any moment, but that doesn't happen. Okay, very rarely, for very edge-y cases.
 
+#Current status
+Doesn't work. Ask.fm went through a redesign and I apploud them for it. I see no practical purpose to improve on this, but you're welcome to pick it up if you like.
 
 Just something I've written in my spare time for fun. I know it could be much faster and better architected, but oh well.
